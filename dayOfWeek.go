@@ -6,7 +6,7 @@ package dayOfWeek
 //
 //	Congruence [Zeller] which may be used to obtain the day of the week
 //	for dates on or after 0000-03-01:(0000-03-1 is Wednesday)
-func dayOfWeek(day int, month int, year int) string {
+func DayOfWeek(day int, month int, year int) string {
 	var cent int
 	dayofweek := []string{
 		"Sun",
